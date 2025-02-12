@@ -1,11 +1,11 @@
 :root{
     --Orange: hsl(25, 97%, 53%);
     --White: hsl(0, 0%, 100%);
-    --Light-Grey: hsl(217, 12%, 63%);
+    --LightGrey: hsl(217, 12%, 63%);
     --Dark-Blue: hsl(213, 19%, 18%);
     --Very-Dark-Blue: hsl(216, 12%, 8%);
 
-    --background-img:hsl(212, 13%, 28%);
+    --backgroundImg:hsl(212, 13%, 28%);
 
     --margin-gap:0.5rem 0;
 }
@@ -19,7 +19,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: var(--Very-Dark-Blue);
-    margin:6%
+    margin:6%;
 }
 
 .main_card,
@@ -40,7 +40,7 @@ body{
 }
 
 .header img{
-    background-color:  var(--background-img);
+    background-color:  var(--backgroundImg);
     padding:0.5rem;
     border-radius: 50%;
 
@@ -48,26 +48,23 @@ body{
 h2{
     color:white;
     font-size:1.5rem;
-    
-    
 }
 p{
-    color:var(--Light-Grey);
-    font-size:1rem;    
-    
+    color:var(--LightGrey);
+    font-size:1rem;
     line-height: 1.2;
 }
 .rating_selection{
-    display:flex;
     justify-content: space-evenly;
+    display:flex;
     gap:1rem;
 }
 input{
-    color:var(--Light-Grey);
+    color:var(--LightGrey);
     border:none;
     width:90%;
     border-radius: 50%;
-    background-color: var(--background-img);
+    background-color: var(--backgroundImg);
     font-family: inherit;
     font-weight: 600;
     cursor: pointer;
@@ -112,7 +109,7 @@ button:active{
     width:75%;
     background-color: var(--background-img);
     padding:0.5rem 0;
-    border-radius: 1rem;
+    padding: 0.5rem 0;
 }
 .result p{
     color:var(--Orange);
@@ -120,9 +117,8 @@ button:active{
 }
 @media screen and (min-width:650px){
     body{
-        margin:0 25%;
-        width:30%;
+        margin:0 30%;
         min-height: 100vh;
-    
+        align-self: center;
     }
 }
