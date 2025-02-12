@@ -52,7 +52,7 @@ h2{
 p{
     color:var(--LightGrey);
     font-size:1rem;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 .rating_selection{
     justify-content: space-evenly;
@@ -117,7 +117,7 @@ button:active{
 }
 @media screen and (min-width:650px){
     body{
-        margin:0 30%;
+        margin:0 35%;
         min-height: 100vh;
         align-self: center;
     }
